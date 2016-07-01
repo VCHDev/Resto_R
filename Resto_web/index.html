@@ -6,39 +6,39 @@
     <meta charset="utf-8">
     <meta name="author" content="Valentin C Hetriuc">
     <meta name="description" content="The Resto web page">
-    <link rel="stylesheet" href="styles/css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500italic,500,700,900,700italic,100,100italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/css/resto.css">
     <title>Resto</title>
 </head>
 
 <body>
-
-    <header>
+    <header id="header-main">
         <div class="header-wrapper">
-          <div class="header-logo">
-              <img src="images/header_logo.png" alt="Resto header logo." />
-          </div>
+            <div class="header-logo">
+                <img src="images/header_logo.png" alt="Resto header logo." />
+            </div>
             <nav class="header-menu">
                 <ul>
                     <li><a href="#">Our story</a></li>
                     <li><a href="#">Menu</a></li>
                     <li><a href="#">Reservation</a></li>
+                    <li><a href="#">News</a></li>
                     <li><a href="#">Rviews</a></li>
                 </ul>
             </nav>
         </div>
-
     </header>
-    <div class="menu-img">
+    <div id="banner-main" class="menu-img">
         <img src="images/menu_background.png" alt="Food on a table." class="menu-image" />
         <p>This Template is Awesome
-            <br> <span>esto restaurant home page website template</span> </p>
-    </div>
-    <main class="">
+            <br><span class="">esto restaurant home page website template</span> </p>
         <div class="">
             <p>The Menu</p>
             <img src="images/menu_title.png" alt="Menu title." />
         </div>
+    </div>
+    <main id="body-main" class="main-body">
         <div class="">
             <ul>
                 <li>
@@ -130,9 +130,9 @@
             <ul>
                 <li>
                     <div class="">
-                        <img src="images/dish1.png" alt="" />
+                        <img src="images/dish1.png" alt="" class="img-gallery" />
                         <p>Fugiat nulla sint</p>
-                        <ul>
+                        <ul class="rated-block">
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
@@ -143,9 +143,9 @@
                 </li>
                 <li>
                     <div class="">
-                        <img src="images/dish2.png" alt="" />
+                        <img src="images/dish2.png" alt="" class="img-gallery" />
                         <p>Daute irure dolor</p>
-                        <ul>
+                        <ul class="rated-block">
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
@@ -156,9 +156,9 @@
                 </li>
                 <li>
                     <div class="">
-                        <img src="images/dish3.png" alt="" />
+                        <img src="images/dish3.png" alt="" class="img-gallery" />
                         <p>Officia deserunt mollit</p>
-                        <ul>
+                        <ul class="rated-block">
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
@@ -169,9 +169,9 @@
                 </li>
                 <li>
                     <div class="">
-                        <img src="images/dish4.png" alt="" />
+                        <img src="images/dish4.png" alt="" class="img-gallery" />
                         <p>Pim minim veniam</p>
-                        <ul>
+                        <ul class="rated-block">
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
                             <li><img src="images/rated.png" alt="Rated star icon." /></li>
@@ -182,47 +182,47 @@
                 </li>
             </ul>
         </div>
-        <div class="">
+        <div>
             <h3>The Gallery</h3>
-            <img src="images/bread.png" alt="Bread." />
-            <img src="images/sweets.png" alt="Sweets." />
-            <img src="images/fruits.png" alt="Fruits." />
-            <img src="images/pizza.png" alt="Pizza." />
-            <img src="images/pasta.png" alt="Pasta." />
+            <img src="images/bread.png" alt="Bread." class="img-gallery" />
+            <img src="images/sweets.png" alt="Sweets." class="img-gallery" />
+            <img src="images/fruits.png" alt="Fruits." class="img-gallery" />
+            <img src="images/pizza.png" alt="Pizza." class="img-gallery" />
+            <img src="images/pasta.png" alt="Pasta." class="img-gallery" />
         </div>
     </main>
-    <footer>
-        <div class="">
+    <footer id="footer-main">
+        <div class="footer-anchor">
             <ul>
-                <li>New York Restaurant</li>
-                <li><a href="#">3926 Anmoore Road<br>New York, NY 10014</a></li>
-                <li><a href="#">718-749-1714</a></li>
+                <li class="footer-titles">New York Restaurant</li>
+                <li class="footer-address"><a href="#">3926 Anmoore Road<br>New York, NY 10014</a></li>
+                <li class="footer-phone"><a href="#">718-749-1714</a></li>
             </ul>
 
         </div>
 
-        <div class="">
+        <div class="footer-anchor">
             <ul>
-                <li>France Restaurant</li>
-                <li><a href="#">68, rue de la Couronne<br>75002 PARIS</a></li>
-                <li><a href="#">02.94.23.69.56</a></li>
+                <li class="footer-titles">France Restaurant</li>
+                <li class="footer-address"><a href="#">68, rue de la Couronne<br>75002 PARIS</a></li>
+                <li class="footer-phone"><a href="#">02.94.23.69.56</a></li>
             </ul>
         </div>
 
-        <div class="">
+        <div class="footer-anchor">
             <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="footer-titles"><a href="#">Blog</a></li>
+                <li class="footer-titles"><a href="#">Careers</a></li>
+                <li class="footer-titles"><a href="#">Privacy Policy</a></li>
+                <li class="footer-titles"><a href="#">Contact</a></li>
             </ul>
         </div>
 
-        <div class="">
+        <div class="footer-anchor">
             <ul>
-                <li><img src="images/footer_logo.png" alt="Resto footer logo." /></li>
-                <li>&copy;All Right Reserved 2014</li>
-                <li><a href="#">Find More at Pixelhint.com</a></li>
+                <li class="footer-logo"><img src="images/footer_logo.png" alt="Resto footer logo." /></li>
+                <li class="footer-rights">&copy;All Right Reserved 2014</li>
+                <li class="footer-rights">Find More at <a href="#"><span class="footer-hint">Pixelhint.com</span</a></li>
             </ul>
         </div>
     </footer>
