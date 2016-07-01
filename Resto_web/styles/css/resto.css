@@ -1,106 +1,136 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-a {
-    text-decoration: none;
-}
-li {
-    list-style: none;
-}
-
-/*Header*/
-
-.header-logo, .header-menu {
-    text-align: center;
-}
-.menu-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/menu_background.png);
-}
-.rated-block li, .header-menu li {
-    display: inline-block;
-}
-.menu-image {
-    width: 100%;
-}
-.main-body, .header-wrapper {
-    margin: 0 auto;
-}
-
-#footer-main {
-  background-color: #3b3b3b;
-}
-
-.footer-anchor li,
-.footer-anchor a {
-  color: white;
-}
-
-.footer-anchor ul {
-  padding: 7px 0px;
-}
-
-.footer-titles {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1em;
-}
-
-.footer-phone {
-  font-weight: bold;;
-  font-size: 1em;
-}
-
-.footer-address {
-  font-weight: lighter;
-  font-size: .75em;
-}
-
-.footer-hint ,
-.footer-logo {
-  margin: 0 0 10px 0;
-}
-
-.footer-rights {
-  margin: 5px 0;
-  font-weight: lighter;
-  font-size: .75em;
-}
-
-.footer-hint {
-  font-weight: bold;
-  font-size: 1em;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+ }
+ a {
+     text-decoration: none;
+ }
+ li {
+     list-style: none;
+ }
+ /*Header*/
 
 
-.footer-anchor  a:hover {
-  color: #A9A9A9;
-}
+ .menu-image {
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/menu_background.png');
+     width: 100%;
+     position: relative;
+     box-sizing: border-box;
+ }
 
-.footer-anchor  a:active {
+ .test{
    color: white;
-}
+   position: absolute;
+   width: 100%;
+   top: 53%;
+   text-align: center;
+ }
+
+ /*#header-main{
+   height: 570px;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///D:/Resto_Repo/Resto_web/images/menu_background.png");
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///D:/Resto_Repo/Resto_web/images/menu_background.png");
+   background-repeat: no-repeat;
+   background-position:center;;
+   background-size: cover;
+ }*/
 
 
+ .header-logo, .header-menu {
+     text-align: center;
+ }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    .header-logo {
-        padding: 10px 0;
-    }
-    .header-menu li {
-        padding: 5px 10px;
-        width: 50%;
-        margin: 0 auto;
-        display: block;
-        font-size: 1.25em;
-    }
-    .img-gallery {
-        width: 100%;
-    }
+ .rated-block li, .header-menu li {
+     display: inline-block;
+ }
 
-    #body-main,
-    #footer-main {
-      text-align: center;
-    }
-}
+ .main-body, .header-wrapper {
+     margin: 0 auto;
+ }
+
+ #footer-main {
+     background-color: #3b3b3b;
+ }
+ .footer-anchor li, .footer-anchor a {
+     color: white;
+ }
+ .footer-anchor ul {
+     padding: 7px 0px;
+ }
+ .footer-titles {
+     font-style: normal;
+     font-weight: normal;
+     font-size: 1em;
+ }
+ .footer-phone {
+     font-weight: bold;
+     ;
+     font-size: 1em;
+ }
+ .footer-address {
+     font-weight: lighter;
+     font-size: .75em;
+ }
+ .footer-hint, .footer-logo {
+     margin: 0 0 10px 0;
+ }
+ .footer-rights {
+     margin: 5px 0;
+     font-weight: lighter;
+     font-size: .75em;
+ }
+ .footer-hint {
+     font-weight: bold;
+     font-size: 1em;
+ }
+ .footer-anchor a:hover {
+     color: #A9A9A9;
+ }
+ .footer-anchor a:active {
+     color: white;
+ }
+ @media only screen and (min-width: 320px) and (max-width: 480px) {
+   .test {
+     font-size: 1.5em;
+     font-weight: bold 400;;
+   }
+   .test-sub {
+     font-size: .5em;
+     font-weight:  italic;
+     border-top: 1px solid white;
+     border-bottom: 1px solid white;
+     color: white;
+   }
+     .header-logo {
+         padding: 10px 0;
+     }
+     .header-menu ul {
+         width: 100%;
+     }
+     .header-menu a {
+         color: white;
+     }
+     .header-menu li {
+         background-color: #3b3b3b;
+         padding: 5px 0;
+         margin: 5px auto;
+         display: block;
+         font-size: 1.25em;
+     }
+     .img-gallery {
+         width: 100%;
+     }
+
+     #body-main, #footer-main {
+         text-align: center;
+     }
+
+     .header-menu a:active {
+         color: #A9A9A9;
+     }
+
+     .footer-anchor a:visited {
+         color: white;
+     }
+ }
