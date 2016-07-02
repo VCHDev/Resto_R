@@ -17,6 +17,9 @@
      width: 100%;
      position: relative;
      box-sizing: border-box;
+     border-bottom: 2px;
+     border-color: red;
+     border-bottom-style: solid;
  }
 
  .test{
@@ -24,6 +27,27 @@
    position: absolute;
    width: 100%;
    top: 53%;
+   text-align: center;
+ }
+
+
+ .menu-flag {
+   box-sizing: border-box;
+   display: block;
+   margin: 0 auto;
+   position: relative;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+.menu-main {
+  background: blue;
+}
+ .test-menu {
+   /*color: white;*/
+   position: absolute;
+   width: 100%
+   top:30%;
    text-align: center;
  }
 
