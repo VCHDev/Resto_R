@@ -1,4 +1,5 @@
  * {
+     box-sizing: border-box;
      margin: 0;
      padding: 0;
      font-family: 'Roboto', sans-serif;
@@ -10,18 +11,6 @@
      list-style: none;
  }
  /*Header*/
-
-
- .menu-image {
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/menu_background.png');
-     width: 100%;
-     position: relative;
-     box-sizing: border-box;
-     border-bottom: 2px;
-     border-color: red;
-     border-bottom-style: solid;
- }
-
  .test{
    color: white;
    position: absolute;
@@ -30,19 +19,18 @@
    text-align: center;
  }
 
-
- .menu-flag {
-   box-sizing: border-box;
+ .menu-main {
+   width: 100%;
    display: block;
    margin: 0 auto;
    position: relative;
+   background-image: url('/Users/vhetriuc/Developer Web/Resto_web/images/menu_title.png');
    background-repeat: no-repeat;
    background-position: center;
+   background-clip: border-box;
+   background-size: contain;
  }
 
-.menu-main {
-  background: blue;
-}
  .test-menu {
    /*color: white;*/
    position: absolute;
@@ -114,6 +102,25 @@
  .footer-anchor a:active {
      color: white;
  }
+
+ #banner-main{
+   max-width: 100%;
+   max-height: 0;
+   padding-top: 60%;
+   background-size: contain;;
+   background-color: blue;
+
+    background-image: url('/Users/vhetriuc/Developer Web/Resto_web/images/menu_background.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Users/vhetriuc/Developer Web/Resto_web/images/menu_background.png');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-clip: border-box;
+
+
+    border-bottom:  solid;
+    border-color: red;
+ }
+
  @media only screen and (min-width: 320px) and (max-width: 480px) {
    .test {
      font-size: 1.5em;
