@@ -117,6 +117,11 @@ MENU-BANNER
   text-align: center;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 a.arrow-up{
   font-family: 'aleoregular' , monospace;
   font-size: 1.3em;
@@ -125,6 +130,31 @@ a.arrow-up{
   background: #f34949;
   display: inline-block;
   position: relative;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 a.arrow-up:after {
@@ -157,5 +187,9 @@ a.arrow-up:after {
 }
 
 .resto-menu-item-price {
+  float: right;
+}
+
+.menu-dish span {
   float: right;
 }
